@@ -1,0 +1,119 @@
+body {
+  font-family: Roboto;
+  background: #ffffff;
+  /* fallback for old browsers */
+ 
+}
+
+#container {
+  height: 525px;
+  width: 360px;
+  margin: 50px auto;
+  background: #ffff9f;
+
+}
+
+h1 {
+  color: black;
+  margin: 0;
+  padding: 40px 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+h2 {
+  color: black;
+  margin: 0;
+  padding: 40px 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p {
+
+}
+
+form input[type="text"] {
+  width=50px;
+}
+
+input {
+
+}
+
+#billamt {
+  font-size: 14px;
+  /*color: #2980b9;*/
+  background-color: #f7f7f7;
+  width: 40%;
+  padding: 12px 12px 12px 12px;
+  align-items: center;
+  text-align: center;
+}
+
+#billamt:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+
+
+
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 100px auto;
+	background:#2bd844;
+    border: 1px solid #2bd844;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: black;
+}
+
+button:hover {
+  background: #ffffff;
+  border-bottom-color: #111;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalTip {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#totalTip:before {
+  content: "테스트 결과";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalTip sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
