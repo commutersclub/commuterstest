@@ -78,7 +78,7 @@ function calculateTip() {
 	}
 
 	var rplay1 = parseInt(total / 780);
-	var rplay2 = parseInt(total / 200);
+	var rplay2 = parseInt(total / 100);
 
 	var rplay4 = parseInt(total / 3);
 	var rplay5 = Number(parseInt((total / 60) * 9160 * 12)).toLocaleString();
