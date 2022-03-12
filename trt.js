@@ -79,15 +79,19 @@ function calculateTip() {
 
 	var rplay1 = parseInt(total / 780);
 	var rplay2 = parseInt(total / 200);
-	var rplay3 = parseInt(total / 60);
+
 	var rplay4 = parseInt(total / 3);
 	var rplay5 = Number(parseInt((total / 60) * 9160 * 12)).toLocaleString();
+	var rplay6 = parseInt(total / 15);
+	var rplay7 = parseInt(total / 5);
 
 	document.getElementById('play1').innerHTML = rplay1;
 	document.getElementById('play2').innerHTML = rplay2;
-	document.getElementById('play3').innerHTML = rplay3;
+
 	document.getElementById('play4').innerHTML = rplay4;
 	document.getElementById('play5').innerHTML = rplay5;
+	document.getElementById('play6').innerHTML = rplay6;
+		document.getElementById('play7').innerHTML = rplay7;
 
 	document.getElementById('totalTip').style.display = 'block';
 	document.getElementById('tip').innerHTML = total;

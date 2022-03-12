@@ -209,6 +209,19 @@ form input[type='text'] {
 	text-align: center;
 }
 
+#play6 {
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+}
+
+#play7 {
+	font-weight: 700;
+	font-size: 25px;
+	text-align: center;
+}
+
+
 #re {
 	width: 80%;
 	color: black;
